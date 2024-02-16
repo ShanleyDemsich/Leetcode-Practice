@@ -3,7 +3,10 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
+
+        My first successful attempt
         """
+
         k = 1
         seen = 1
 
@@ -17,4 +20,16 @@ class Solution(object):
                 k += 1
                 seen += 1
 
+        return k
+
+    def removeDuplicatesImproved(selfself, nums):
+        """
+        A more optimal and cleaner attempt
+        """
+
+        k = 0
+        for i in nums:
+            if k < 2 or i != nums[k - 2]:
+                nums[k] = i
+                k += 1
         return k
