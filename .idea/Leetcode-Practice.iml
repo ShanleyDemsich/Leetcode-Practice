@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Merge Sorted Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Remove Duplicates from Sorted Array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Remove Element" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
